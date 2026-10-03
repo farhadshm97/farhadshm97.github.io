@@ -18,7 +18,7 @@
 @keyframes secondHand{to{transform:rotate(360deg)}}
 
 .lang-switch{display:flex;align-items:center;gap:0;margin-left:18px;border:1px solid var(--ink);border-radius:999px;padding:3px;background:rgba(251,250,247,.72)}.lang-switch button{border:0;background:transparent;color:var(--muted);font:inherit;font-size:10px;padding:7px 10px;border-radius:999px;cursor:pointer;transition:.2s}.lang-switch button.active{background:var(--ink);color:#fff}.nav-right{display:flex;align-items:center}.links{display:flex;gap:14px;font-size:10px;color:#444846}
-html[dir="rtl"] body{text-align:right}html[dir="rtl"] .hero,html[dir="rtl"] .aboutgrid,html[dir="rtl"] .process,html[dir="rtl"] .expwrap,html[dir="rtl"] .skills-layout,html[dir="rtl"] .contactgrid{direction:rtl}html[dir="rtl"] .brand,html[dir="rtl"] .nav-right,html[dir="rtl"] .actions,html[dir="rtl"] .processline{direction:rtl}html[dir="rtl"] .links{direction:rtl}html[dir="rtl"] .sectionhead{direction:rtl}html[dir="rtl"] .expitem{border-left:0;border-right:1px solid var(--ink);padding-left:0;padding-right:34px}html[dir="rtl"] .expitem:before{left:auto;right:-5px}html[dir="rtl"] .contactlinks a{text-align:right}
+html[dir="rtl"] body{text-align:right}html[dir="rtl"] .process-art,html[dir="rtl"] .process-art svg{direction:ltr!important;unicode-bidi:isolate!important;text-align:left!important}html[dir="rtl"] .process-art svg text{font-family:"Vazirmatn",Tahoma,sans-serif}html[dir="rtl"] .process-art .flow-title{font-size:14px!important}html[dir="rtl"] .process-art .flow-label{font-size:10px!important}html[dir="rtl"] .process-art .tiny{font-size:8px!important}html[dir="rtl"] .hero,html[dir="rtl"] .aboutgrid,html[dir="rtl"] .process,html[dir="rtl"] .expwrap,html[dir="rtl"] .skills-layout,html[dir="rtl"] .contactgrid{direction:rtl}html[dir="rtl"] .brand,html[dir="rtl"] .nav-right,html[dir="rtl"] .actions,html[dir="rtl"] .processline{direction:rtl}html[dir="rtl"] .links{direction:rtl}html[dir="rtl"] .sectionhead{direction:rtl}html[dir="rtl"] .expitem{border-left:0;border-right:1px solid var(--ink);padding-left:0;padding-right:34px}html[dir="rtl"] .expitem:before{left:auto;right:-5px}html[dir="rtl"] .contactlinks a{text-align:right}
 nav{position:sticky;top:0;z-index:20;background:rgba(244,243,239,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(217,217,210,.75)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:13px}.mark{width:34px;height:34px;border:1px solid var(--ink);display:grid;place-items:center;font-size:11px;letter-spacing:.08em}.brand strong{display:block;font-size:14px;letter-spacing:.02em}.brand span{display:block;color:var(--muted);font-size:11px}.links{display:flex;gap:14px;font-size:10px;color:#444846}.links a{position:relative;display:grid;place-items:center;width:64px;height:42px;border:1px solid var(--ink);border-radius:50%;transition:.25s}.links a:before{content:"";position:absolute;top:-5px;left:50%;width:6px;height:6px;border:1px solid var(--ink);border-radius:50%;background:var(--bg)}.links a:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
 .hero{min-height:calc(100vh - 76px);display:grid;grid-template-columns:1.03fr .97fr;gap:70px;align-items:center;padding:76px 0 88px;position:relative}.hero>*{position:relative}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700}.hero h1{font-size:clamp(52px,7vw,92px);line-height:.92;letter-spacing:-.055em;margin:18px 0 18px;font-weight:760}.hero h2{font-size:clamp(26px,3.5vw,46px);line-height:1.02;letter-spacing:-.04em;margin:0 0 25px;max-width:650px}.hero p{font-size:16px;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}.btn{padding:13px 18px;border:1px solid var(--ink);font-size:12px;font-weight:650;letter-spacing:.02em;transition:.2s}.btn.primary{background:var(--ink);color:#fff}.btn:hover{transform:translateY(-2px)}.heroimg{height:590px;position:relative;overflow:hidden;background:#d9d9d2}.heroimg img.hero-photo{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 38%;filter:saturate(.88) contrast(1.03)}.heroimg .photo-wash{position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,19,19,.02),rgba(53,110,168,.10) 62%,rgba(17,19,19,.30));pointer-events:none}.heroimg:before{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.42);z-index:2;pointer-events:none}.heroimg:after{content:none}.imglabel{position:absolute;left:18px;bottom:18px;background:rgba(17,19,19,.9);color:#fff;padding:10px 12px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
 section{padding:110px 0;border-top:1px solid var(--line);position:relative}.sectionhead{display:grid;grid-template-columns:180px 1fr;gap:40px;margin-bottom:54px}.sectionnum{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:750}.sectionhead h2{font-size:clamp(40px,5vw,66px);letter-spacing:-.05em;line-height:.95;margin:0}.aboutgrid{display:grid;grid-template-columns:1.4fr .6fr;gap:90px}.lead{font-size:clamp(28px,3.4vw,44px);line-height:1.12;letter-spacing:-.04em;margin:0}.sidebox{border-top:1px solid var(--ink);padding-top:16px}.sidebox span{display:block;color:var(--muted);font-size:11px;margin-bottom:12px}.sidebox strong{display:block;font-size:13px;margin:6px 0}
@@ -245,11 +245,106 @@ body.paused .heroimg img.hero-photo{transform:scale(1.025)}
 @media(max-width:850px){.howwork-stage{grid-template-columns:1fr;min-height:820px;padding:40px 24px 62px}.stopwatch-orbit{height:390px}.ring-one{width:330px;height:330px}.ring-two{width:260px;height:260px}.big-stopwatch{transform:scale(.88)}.method-sequence{max-width:520px;width:100%;margin:0 auto}.step-b,.step-c,.step-d{margin-left:0}.howwork-footer{bottom:18px;font-size:6px}}
 @media(max-width:520px){.howwork-stage{min-height:790px;padding:32px 15px 60px}.stopwatch-orbit{height:350px}.ring-one{width:290px;height:290px}.ring-two{width:230px;height:230px}.big-stopwatch{transform:scale(.72)}.stopwatch-caption{bottom:0}.stopwatch-caption b{font-size:17px}.method-step{padding:15px 12px}.method-step b{font-size:18px}.method-step small{font-size:8px}.howwork-footer{display:none}}
 
+
+/* Persian layout corrections — keep English presentation unchanged */
+html[dir="rtl"] .hero{grid-template-columns:1fr .78fr;gap:45px}html[dir="rtl"] .heroimg{height:420px;min-height:0;max-height:420px}
+html[dir="rtl"] .xstage{direction:ltr;overflow:hidden;contain:layout paint}
+html[dir="rtl"] .xstage .xnode{direction:rtl;text-align:right;writing-mode:horizontal-tb}
+html[dir="rtl"] .xstage .xnode h3{font-size:21px;line-height:1.2;margin-top:8px}
+html[dir="rtl"] .xstage .xnode p{font-size:11.5px;line-height:1.7}
+html[dir="rtl"] .xstage .xnode .n{display:block;direction:ltr;text-align:left}
+html[dir="rtl"] .xstage .xcore{direction:ltr}
+@media(max-width:850px){
+  html[dir="rtl"] .heroimg{height:430px;min-height:0}
+  html[dir="rtl"] .xstage{height:620px}
+  html[dir="rtl"] .xnode{width:190px}
+}
+@media(max-width:520px){
+  html[dir="rtl"] .heroimg{height:390px}
+  html[dir="rtl"] .xstage{height:700px}
+  html[dir="rtl"] .xnode{width:155px;padding:16px}
+  html[dir="rtl"] .xstage .xnode h3{font-size:18px}
+  html[dir="rtl"] .xstage .xnode p{font-size:10.5px}
+}
+
+/* Persian typography and layout refinement */
+html[dir="rtl"] body{font-family:"Vazirmatn",Tahoma,"Segoe UI",sans-serif;font-size:15px;line-height:1.85}
+html[dir="rtl"] .hero h1{font-family:"Vazirmatn",Tahoma,sans-serif;font-size:clamp(42px,5.8vw,76px);line-height:1.12;letter-spacing:-.035em}
+html[dir="rtl"] .hero h2{font-family:"Vazirmatn",Tahoma,sans-serif;font-size:clamp(24px,3vw,40px);line-height:1.45;letter-spacing:-.025em}
+html[dir="rtl"] .hero p{font-size:15px;line-height:2}
+html[dir="rtl"] .sectionhead h2{font-size:clamp(34px,4.5vw,58px);line-height:1.2;letter-spacing:-.035em}
+html[dir="rtl"] .lead{font-size:clamp(24px,3vw,38px);line-height:1.7;letter-spacing:-.025em}
+html[dir="rtl"] .xnode h3{font-family:"Vazirmatn",Tahoma,sans-serif;font-size:18px;line-height:1.45;letter-spacing:-.02em}
+html[dir="rtl"] .xnode p{font-size:12px;line-height:1.8}
+html[dir="rtl"] .experience-card h3{font-size:28px;line-height:1.35}
+html[dir="rtl"] .experience-card p{font-size:13px;line-height:2}
+html[dir="rtl"] .contactlead{font-size:clamp(26px,3.5vw,46px);line-height:1.55}
+html[dir="rtl"] .contact p{font-size:14px;line-height:2}
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+
+/* Persian final correction — stable expertise layout + complete Persian typography */
+html[dir="rtl"] .hero{grid-template-columns:minmax(0,1fr) minmax(320px,.72fr);gap:52px}
+html[dir="rtl"] .heroimg{height:400px;max-height:400px;align-self:center}
+html[dir="rtl"] .heroimg img.hero-photo{object-position:50% 34%}
+
+html[dir="rtl"] .sectionhead h2,
+html[dir="rtl"] .sectionnum,
+html[dir="rtl"] .lead,
+html[dir="rtl"] .aboutgrid,
+html[dir="rtl"] .xstage,
+html[dir="rtl"] .xnode,
+html[dir="rtl"] .xnode h3,
+html[dir="rtl"] .xnode p,
+html[dir="rtl"] .experience-card,
+html[dir="rtl"] .experience-card h3,
+html[dir="rtl"] .experience-card p,
+html[dir="rtl"] .skills-layout,
+html[dir="rtl"] .skills-visual,
+html[dir="rtl"] .contact,
+html[dir="rtl"] .contact .sectionhead h2,
+html[dir="rtl"] .contactlead,
+html[dir="rtl"] .contact p,
+html[dir="rtl"] .contactlinks,
+html[dir="rtl"] .phone-label{
+  font-family:"Vazirmatn",Tahoma,"Segoe UI",sans-serif;
+}
+html[dir="rtl"] .sectionhead h2{font-weight:700;line-height:1.3;letter-spacing:-.03em}
+html[dir="rtl"] .contact .sectionhead h2{font-weight:700;line-height:1.3}
+html[dir="rtl"] .contactlead{font-weight:600;line-height:1.65;letter-spacing:-.02em}
+html[dir="rtl"] .contact p{line-height:2}
+
+/* Do not rotate Persian text with the orbit. The visual remains dynamic through independent node motion. */
+html[dir="rtl"] .xstage .xorbit{animation:xspin 16s linear infinite;inset:0}
+html[dir="rtl"] .xstage .xnode{transform:none;will-change:transform}
+
+
+
+
+
+@keyframes faNodeFloat1{0%,100%{transform:translate(0,0)}50%{transform:translate(0,-7px)}}
+@keyframes faNodeFloat2{0%,100%{transform:translate(0,0)}50%{transform:translate(0,6px)}}
+@keyframes faNodeFloat3{0%,100%{transform:translate(0,0)}50%{transform:translate(0,7px)}}
+@keyframes faNodeFloat4{0%,100%{transform:translate(0,0)}50%{transform:translate(0,-6px)}}
+html[dir="rtl"] .xstage .xcore{z-index:6}
+@media(max-width:850px){
+ html[dir="rtl"] .hero{grid-template-columns:1fr;gap:30px}
+ html[dir="rtl"] .heroimg{height:420px;max-height:420px}
+ html[dir="rtl"] .xstage{height:650px}
+}
+@media(max-width:520px){
+ html[dir="rtl"] .heroimg{height:360px;max-height:360px}
+ html[dir="rtl"] .sectionhead h2{font-size:34px}
+ html[dir="rtl"] .contactlead{font-size:27px}
+ html[dir="rtl"] .xstage{height:700px}
+}
+
 </style>
 </head>
 <body>
 <div class="engineering-bg"></div><div class="stopwatch-bg anim"><div class="stopwatch-crown"></div></div>
-<button class="pause-control" id="pauseControl" aria-label="Pause animations"><span>PAUSE</span></button>
+<button class="pause-control" id="pauseControl" aria-label="Pause animations" title="Pause animations"><span aria-hidden="true"></span></button>
 <nav><div class="wrap navin"><a class="brand" href="#home"><div class="mark">FS</div><div><strong>Farhad Shahmirzaei</strong><span data-i18n="industrialEngineer">Industrial Engineer</span></div></a><div class="nav-right"><div class="links"><a href="#about" data-i18n="about">About</a><a href="#expertise" data-i18n="expertise">Expertise</a><a href="#experience" data-i18n="experience">Experience</a><a href="#skills" data-i18n="skills">Skills</a><a href="#contact" data-i18n="contact">Contact</a></div><button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu">MENU</button><div class="lang-switch" aria-label="Language"><button id="enBtn" class="active" type="button">EN</button><button id="faBtn" type="button">FA</button></div></div></div><div class="mobile-menu" id="mobileMenu"><a href="#about" data-i18n="about">About</a><a href="#expertise" data-i18n="expertise">Expertise</a><a href="#experience" data-i18n="experience">Experience</a><a href="#skills" data-i18n="skills">Skills</a><a href="#contact" data-i18n="contact">Contact</a></div></nav>
 <audio id="hogwartsAudio" preload="none" aria-hidden="true" src="https://dl.musicgeek.ir/online/Harry-Potter/John%20Williams%20-%20Prologue%20-%20musicgeek.ir.mp3"></audio>
 <main id="home">
@@ -259,14 +354,14 @@ body.paused .heroimg img.hero-photo{transform:scale(1.025)}
 </section>
 <section id="about"><div class="wrap"><div class="sectionhead reveal"><div class="sectionnum" data-i18n="secAbout">01 / About</div><h2 data-i18n="aboutMe">About Me</h2></div><div class="aboutgrid"><p class="lead reveal" data-i18n="aboutLead">I am an Industrial Engineer specializing in Work Measurement, Time Study, and Workforce Analysis.</p><div class="sidebox reveal"><span data-i18n="focus">FOCUS</span><strong>Work Measurement</strong><strong>Time Study</strong><strong>Workforce Analysis</strong><strong>Process Analysis</strong></div></div></div></section>
 <section id="expertise"><div class="wrap"><div class="sectionhead reveal"><div class="sectionnum" data-i18n="secExpertise">02 / Expertise</div><h2 data-i18n="whatIWorkOn">What I Work On</h2></div><div class="xstage"><div class="xorbit anim"><div class="xnode n1"><span class="n">01</span><h3 data-i18n="workMeasurement">Work Measurement</h3><p data-i18n="workMeasurementText">Measuring workload and determining workforce requirements.</p></div><div class="xnode n2"><span class="n">02</span><h3 data-i18n="timeStudy">Time Study</h3><p data-i18n="timeStudyText">Analyzing task times and operational processes.</p></div><div class="xnode n3"><span class="n">03</span><h3 data-i18n="workforceAnalysis">Workforce Analysis</h3><p data-i18n="workforceAnalysisText">Analyzing workload and capacity for staffing decisions.</p></div><div class="xnode n4"><span class="n">04</span><h3 data-i18n="dataReporting">Data &amp; Reporting</h3><p data-i18n="dataReportingText">Turning operational data into structured insights.</p></div></div><div class="xcore"><div class="seal-action"><span class="seal-icon">▶</span><span class="seal-action-text">TAP TO PLAY</span></div><div class="seal-center"><div class="seal-monogram">IE</div><div class="seal-rule"></div><div class="seal-caption">INDUSTRIAL</div></div></div></div></div></section>
-<section><div class="wrap"><div class="process"><div class="process-art reveal capacity-visual"><svg viewBox="0 0 760 520" role="img" aria-label="Operational analysis flow from workload measurement to staffing decision"><rect width="760" height="520" fill="#fbfaf7"/><g opacity=".35" stroke="#d9d9d2"><path d="M0 100H760M0 200H760M0 300H760M0 400H760"/><path d="M95 0V520M190 0V520M285 0V520M380 0V520M475 0V520M570 0V520M665 0V520"/></g><text x="58" y="58" class="tiny">OPERATIONAL ANALYSIS / WORKFORCE DECISION</text><g><rect class="flow-node" x="55" y="135" width="145" height="92" rx="8"/><text x="73" y="157" class="flow-num">01 / INPUT</text><text x="73" y="184" class="flow-title">Workload</text><text x="73" y="205" class="flow-label">volume · activities · demand</text></g><g><rect class="flow-node" x="305" y="135" width="145" height="92" rx="8"/><text x="323" y="157" class="flow-num">02 / MEASURE</text><text x="323" y="184" class="flow-title">Time Study</text><text x="323" y="205" class="flow-label">standard time · capacity</text></g><g><rect class="flow-node" x="555" y="135" width="145" height="92" rx="8"/><text x="573" y="157" class="flow-num">03 / OUTPUT</text><text x="573" y="184" class="flow-title">Staffing</text><text x="573" y="205" class="flow-label">required workforce</text></g><path class="flow-line" d="M205 181H295"/><path class="flow-line" d="M455 181H545"/><circle class="data-dot" cx="205" cy="181" r="6"/><g transform="translate(55 300)"><text class="flow-num" x="0" y="0">CAPACITY CHECK</text><rect class="bar" x="0" y="30" width="300" height="18" rx="9"/><rect class="bar active" x="0" y="30" width="218" height="18" rx="9"/><text class="flow-label" x="0" y="72">Available capacity</text><text class="flow-label" x="245" y="72">AVAILABLE</text><rect class="bar" x="0" y="100" width="300" height="18" rx="9"/><rect class="bar active" x="0" y="100" width="270" height="18" rx="9"/><text class="flow-label" x="0" y="142">Workload pressure</text><text class="flow-label" x="245" y="142">LOAD</text></g><g transform="translate(535 292)"><circle class="gauge" cx="65" cy="64" r="54" stroke-dasharray="170 170" stroke-dashoffset="35"/><line class="needle" x1="65" y1="64" x2="65" y2="25"/><circle cx="65" cy="64" r="6" fill="#356ea8"/><text x="29" y="145" class="tiny">DECISION SIGNAL</text></g><text x="55" y="475" class="flow-label">Measure → analyze → model → support a defensible workforce decision</text></svg></div><div class="processcopy"><div class="sectionnum reveal" data-i18n="processThinking">Process Thinking</div><div class="processline reveal"><b>01</b><strong data-i18n="observe">Observe the work</strong></div><div class="processline reveal"><b>02</b><strong data-i18n="measureAnalyze">Measure &amp; analyze</strong></div><div class="processline reveal"><b>03</b><strong data-i18n="modelProcess">Model the process</strong></div><div class="processline reveal"><b>04</b><strong data-i18n="improveReport">Improve &amp; report</strong></div></div></div></div></section>
+<section><div class="wrap"><div class="process"><div class="process-art reveal capacity-visual"><svg viewBox="0 0 760 520" role="img" aria-label="Operational analysis flow from workload measurement to staffing decision"><rect width="760" height="520" fill="#fbfaf7"/><g opacity=".35" stroke="#d9d9d2"><path d="M0 100H760M0 200H760M0 300H760M0 400H760"/><path d="M95 0V520M190 0V520M285 0V520M380 0V520M475 0V520M570 0V520M665 0V520"/></g><text x="58" y="58" class="tiny" data-fa="تحلیل عملیاتی / تصمیم نیروی انسانی">OPERATIONAL ANALYSIS / WORKFORCE DECISION</text><g><rect class="flow-node" x="55" y="135" width="145" height="92" rx="8"/><text x="73" y="157" class="flow-num">۰۱ / ورودی</text><text x="73" y="184" class="flow-title" data-fa="حجم کار">Workload</text><text x="73" y="205" class="flow-label" data-fa="حجم · فعالیت · تقاضا">volume · activities · demand</text></g><g><rect class="flow-node" x="305" y="135" width="145" height="92" rx="8"/><text x="323" y="157" class="flow-num">۰۲ / اندازه‌گیری</text><text x="323" y="184" class="flow-title" data-fa="زمان‌سنجی">Time Study</text><text x="323" y="205" class="flow-label" data-fa="زمان استاندارد · ظرفیت">standard time · capacity</text></g><g><rect class="flow-node" x="555" y="135" width="145" height="92" rx="8"/><text x="573" y="157" class="flow-num">۰۳ / خروجی</text><text x="573" y="184" class="flow-title" data-fa="تأمین نیرو">Staffing</text><text x="573" y="205" class="flow-label" data-fa="نیروی موردنیاز">required workforce</text></g><path class="flow-line" d="M205 181H295"/><path class="flow-line" d="M455 181H545"/><circle class="data-dot" cx="205" cy="181" r="6"/><g transform="translate(55 300)"><text class="flow-num" x="0" y="0" data-fa="بررسی ظرفیت">CAPACITY CHECK</text><rect class="bar" x="0" y="30" width="300" height="18" rx="9"/><rect class="bar active" x="0" y="30" width="218" height="18" rx="9"/><text class="flow-label" x="0" y="72" data-fa="ظرفیت موجود">Available capacity</text><text class="flow-label" x="245" y="72" data-fa="موجود">AVAILABLE</text><rect class="bar" x="0" y="100" width="300" height="18" rx="9"/><rect class="bar active" x="0" y="100" width="270" height="18" rx="9"/><text class="flow-label" x="0" y="142" data-fa="فشار حجم کار">Workload pressure</text><text class="flow-label" x="245" y="142" data-fa="بار">LOAD</text></g><g transform="translate(535 292)"><circle class="gauge" cx="65" cy="64" r="54" stroke-dasharray="170 170" stroke-dashoffset="35"/><line class="needle" x1="65" y1="64" x2="65" y2="25"/><circle cx="65" cy="64" r="6" fill="#356ea8"/><text x="29" y="145" class="tiny" data-fa="سیگنال تصمیم">DECISION SIGNAL</text></g><text x="55" y="475" class="flow-label" data-fa="اندازه‌گیری → تحلیل → مدل‌سازی → پشتیبانی از تصمیم نیروی انسانی">Measure → analyze → model → support a defensible workforce decision</text></svg></div><div class="processcopy"><div class="sectionnum reveal" data-i18n="processThinking">Process Thinking</div><div class="processline reveal"><b>01</b><strong data-i18n="observe">Observe the work</strong></div><div class="processline reveal"><b>02</b><strong data-i18n="measureAnalyze">Measure &amp; analyze</strong></div><div class="processline reveal"><b>03</b><strong data-i18n="modelProcess">Model the process</strong></div><div class="processline reveal"><b>04</b><strong data-i18n="improveReport">Improve &amp; report</strong></div></div></div></div></section>
 <section id="experience"><div class="wrap"><div class="sectionhead reveal"><div class="sectionnum" data-i18n="secExperience">03 / Experience</div><h2 data-i18n="experienceTitle">Experience</h2></div><div class="experience-track"><div class="experience-axis" aria-hidden="true"><span class="axis-dot active"></span><span class="axis-line"></span><span class="axis-dot"></span></div><div class="experience-cards"><article class="experience-card reveal"><div class="exp-top"><div><div class="exp-index" data-i18n="current">01 / Current</div><h3>Bank Saman</h3></div></div><div class="exp-role" data-i18n="bankRole">Human Capital Specialist — Work Measurement &amp; Workforce Analysis</div><p data-i18n="bankDesc">Conducting work measurement and workload analysis across bank departments, management units, and branches. Analyzing operational activities, workload, and capacity to support workforce planning and staffing decisions. Supporting organizational structure, job descriptions, and workforce-related analysis.</p><div class="exp-tags"><span data-i18n="bankTag1">Work Measurement</span><span data-i18n="bankTag2">Workforce Analysis</span><span data-i18n="bankTag3">Organizational Structure</span></div></article><article class="experience-card reveal"><div class="exp-top"><div><div class="exp-index" data-i18n="previous">02 / Previous</div><h3>Saipa</h3></div></div><div class="exp-role" data-i18n="saipaRole">Industrial Engineering Specialist</div><p data-i18n="saipaDesc">Conducted work measurement and time study activities within manufacturing operations, analyzed operational tasks and process times, and prepared analytical reports based on work measurement and time study data.</p><div class="exp-tags"><span data-i18n="saipaTag1">Time Study</span><span data-i18n="saipaTag2">Work Measurement</span><span data-i18n="saipaTag3">Manufacturing</span></div></article></div><aside class="experience-signal reveal"><span class="signal-label" data-i18n="careerSignal">CAREER SIGNAL</span><strong>MEASURE → ANALYZE → DECIDE</strong><p data-i18n="careerSignalText">From production-floor time study to workforce analysis in a banking environment.</p><div class="signal-rule"></div><span class="signal-small" data-i18n="careerSignalSmall">Industrial Engineering · Work Measurement · Workforce Analysis</span></aside></div></div></section>
 <section id="skills"><div class="wrap"><div class="sectionhead reveal"><div class="sectionnum" data-i18n="secSkills">04 / Skills</div><h2 data-i18n="skillsTitle">Skills</h2></div><div class="skills-layout"><aside class="skill-rail"><div class="skill-rail-title" data-i18n="coreCapabilities">Core capabilities</div><div class="skill-rail-line"></div><div class="skill-group reveal"><span>01</span><b data-i18n="skill1">Workforce Analysis &amp; Reporting</b></div><div class="skill-group reveal"><span>02</span><b data-i18n="skill2">Data Visualization &amp; Dashboards</b></div><div class="skill-group reveal"><span>03</span><b data-i18n="skill3">Process Modeling &amp; BPMN</b></div><div class="skill-group reveal"><span>04</span><b data-i18n="skill4">Process Analysis &amp; Continuous Improvement</b></div><div class="skill-group reveal"><span>05</span><b data-i18n="skill5">Management Reporting &amp; Documentation</b></div><div class="tools-block reveal"><div class="tools-label" data-i18n="toolsLabel">TOOLS</div><div class="tool-chips"><span>Excel</span><span>Power BI</span><span>Word</span><span>PowerPoint</span></div></div><div class="credentials-block reveal"><div class="tools-label" data-i18n="credentialsLabel">CREDENTIALS</div><div class="credential"><b data-i18n="cert1">Project Management Principles — PMBOK 7</b><span data-i18n="certProvider">Tehran Institute of Technology</span></div><div class="credential"><b data-i18n="cert2">Project Planning &amp; Control — MS Project</b><span data-i18n="certProvider2">Tehran Institute of Technology</span></div></div><button class="bernard-btn" id="bernardBtn" aria-label="Pause or play animations"><span class="bernard-tile"><span class="bernard-art"><span class="watch-crown"></span><span class="watch-face"><i class="watch-hand h1"></i><i class="watch-hand h2"></i><i class="watch-dot"></i></span><strong>BERNARD'S<br>WATCH</strong><small>STOP TIME</small></span><span class="tile-watch"></span></span></button><div class="bernard-caption" data-i18n="bernardCaption">Pause / play the site's motion</div></aside><div class="skills-visual reveal howwork-visual" aria-label="How I work — stopwatch and method sequence">
-<div class="skill-map-head"><span>FIELD / METHOD</span><b>How I work</b><em>01—04</em></div>
+<div class="skill-map-head"><span data-i18n="methodField">FIELD / METHOD</span><b data-i18n="howIWork">How I work</b><em data-i18n="methodIndex">01—04</em></div>
 <div class="howwork-stage">
   <div class="stopwatch-orbit">
     <span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span>
-    <span class="orbit-label label-top">TIME / WORK</span><span class="orbit-label label-right">CAPACITY</span><span class="orbit-label label-bottom">DECISION</span><span class="orbit-label label-left">DATA</span>
+    <span class="orbit-label label-top" data-i18n="timeWork">TIME / WORK</span><span class="orbit-label label-right" data-i18n="capacity">CAPACITY</span><span class="orbit-label label-bottom" data-i18n="decision">DECISION</span><span class="orbit-label label-left" data-i18n="data">DATA</span>
     <div class="big-stopwatch" aria-hidden="true">
       <span class="watch-crown"></span><span class="watch-button"></span><span class="watch-case">
         <span class="watch-mark m12"></span><span class="watch-mark m3"></span><span class="watch-mark m6"></span><span class="watch-mark m9"></span>
@@ -274,16 +369,16 @@ body.paused .heroimg img.hero-photo{transform:scale(1.025)}
         <span class="watch-digital">01:04</span>
       </span>
     </div>
-    <div class="stopwatch-caption"><span>STOPWATCH</span><b>Make the work measurable.</b></div>
+    <div class="stopwatch-caption"><span data-i18n="stopwatch">STOPWATCH</span><b data-i18n="makeMeasurable">Make the work measurable.</b></div>
   </div>
   <div class="method-sequence">
-    <div class="method-step step-a"><span>01</span><div><b>OBSERVE</b><small>Work · activity · flow</small></div><i>↗</i></div>
-    <div class="method-step step-b"><span>02</span><div><b>MEASURE</b><small>Time · workload · capacity</small></div><i>↗</i></div>
-    <div class="method-step step-c"><span>03</span><div><b>ANALYZE</b><small>Data · process · workforce</small></div><i>↗</i></div>
-    <div class="method-step step-d"><span>04</span><div><b>REPORT</b><small>Insight · model · decision</small></div><i>↗</i></div>
+    <div class="method-step step-a"><span>01</span><div><b data-i18n="observeVisual">OBSERVE</b><small data-i18n="workActivityFlow">Work · activity · flow</small></div><i>↗</i></div>
+    <div class="method-step step-b"><span>02</span><div><b data-i18n="measureVisual">MEASURE</b><small data-i18n="timeWorkloadCapacity">Time · workload · capacity</small></div><i>↗</i></div>
+    <div class="method-step step-c"><span>03</span><div><b data-i18n="analyzeVisual">ANALYZE</b><small data-i18n="dataProcessWorkforce">Data · process · workforce</small></div><i>↗</i></div>
+    <div class="method-step step-d"><span>04</span><div><b data-i18n="reportVisual">REPORT</b><small data-i18n="insightModelDecision">Insight · model · decision</small></div><i>↗</i></div>
     <div class="sequence-line"></div>
   </div>
-  <div class="howwork-footer"><span>WORK MEASUREMENT</span><i></i><span>TIME STUDY</span><i></i><span>WORKFORCE ANALYSIS</span></div>
+  <div class="howwork-footer"><span data-i18n="workMeasurementVisual">WORK MEASUREMENT</span><i></i><span data-i18n="timeStudyVisual">TIME STUDY</span><i></i><span data-i18n="workforceAnalysisVisual">WORKFORCE ANALYSIS</span></div>
 </div></div></div></div></section>
 <section id="contact" class="contact"><div class="wrap"><div class="sectionhead reveal"><div class="sectionnum" data-i18n="secContact">05 / Contact</div><h2 data-i18n="letsConnect">Let's Connect</h2></div><div class="contactgrid"><div class="reveal"><div class="contactlead" data-i18n="contactLead">Interested in industrial engineering, work measurement, workforce analysis, or process improvement?</div><p data-i18n="contactText">Feel free to connect with me.</p></div><div class="contactlinks reveal"><a href="https://www.linkedin.com/in/farhad-shahmirzaei-20a69122a" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:FARHAD.FS38@GMAIL.COM">FARHAD.FS38@GMAIL.COM ↗</a></div></div><div class="phone-stage"><div class="phone-wrap"><span class="ring r1"></span><span class="ring r2"></span><div class="phone"><div class="phone-screen"></div></div><div class="phone-label">Available to connect</div></div></div></div></section>
 </main>
@@ -305,8 +400,9 @@ function syncSealUI(){
 function toggleMotion(){
   body.classList.toggle('paused');
   const paused=body.classList.contains('paused');
-  pause.querySelector('span').textContent=paused?'PLAY':'PAUSE';
+  pause.classList.toggle('is-paused',paused);
   pause.setAttribute('aria-label',paused?'Play animations':'Pause animations');
+  pause.setAttribute('title',paused?'Play animations':'Pause animations');
   if(!hogwartsAudio) hogwartsAudio=document.getElementById('hogwartsAudio');
   if(hogwartsAudio){
     if(paused){
@@ -321,14 +417,31 @@ function toggleMotion(){
 }
 pause.addEventListener('click',toggleMotion);bernard.addEventListener('click',toggleMotion);
 const translations={
-industrialEngineer:'مهندس صنایع',about:'درباره من',expertise:'تخصص‌ها',experience:'سوابق',skills:'مهارت‌ها',contact:'ارتباط',
-heroTitle:'کارسنجی و<br>تحلیل نیروی انسانی',heroText:'تحلیل حجم کار، زمان و ظرفیت عملیاتی برای پشتیبانی از تصمیم‌های مرتبط با نیروی انسانی و تأمین نیرو.',explore:'مشاهده تخصص‌ها',timeStudyWork:'زمان‌سنجی / کارسنجی',
-secAbout:'۰۱ / درباره من',aboutMe:'درباره من',aboutLead:'من مهندس صنایع با تخصص در کارسنجی، زمان‌سنجی و تحلیل نیروی انسانی هستم.',focus:'تمرکز',
-secExpertise:'۰۲ / تخصص‌ها',whatIWorkOn:'حوزه‌های کاری من',workMeasurement:'کارسنجی',workMeasurementText:'اندازه‌گیری حجم کار و تعیین نیاز نیروی انسانی.',timeStudy:'زمان‌سنجی',timeStudyText:'تحلیل زمان فعالیت‌ها و فرآیندهای عملیاتی.',workforceAnalysis:'تحلیل نیروی انسانی',workforceAnalysisText:'تحلیل حجم کار و ظرفیت برای تصمیم‌گیری درباره تأمین نیرو.',dataReporting:'داده و گزارش‌دهی',dataReportingText:'تبدیل داده‌های عملیاتی به بینش‌های ساختاریافته.',
-processThinking:'تفکر فرآیندی',observe:'مشاهده کار',measureAnalyze:'اندازه‌گیری و تحلیل',modelProcess:'مدل‌سازی فرآیند',improveReport:'بهبود و گزارش‌دهی',
-secExperience:'۰۳ / سوابق',experienceTitle:'سوابق کاری',current:'۰۱ / فعلی',bankPeriod:'۲۰ بهمن ۱۴۰۳ — تاکنون',bankRole:'کارشناس مدیریت سرمایه انسانی — کارسنجی و تحلیل نیروی انسانی',bankDesc:'انجام کارسنجی و تحلیل حجم کار در واحدها، مدیریت‌ها و شعب بانک. تحلیل فعالیت‌های عملیاتی، حجم کار و ظرفیت برای پشتیبانی از برنامه‌ریزی نیروی انسانی و تصمیم‌های تأمین نیرو. همکاری در تحلیل ساختار سازمانی، شرح وظایف و موضوعات مرتبط با نیروی انسانی.',bankTag1:'کارسنجی',bankTag2:'تحلیل نیروی انسانی',bankTag3:'ساختار سازمانی',previous:'۰۲ / قبلی',saipaPeriod:'۱ خرداد ۱۴۰۲ — ۳۰ دی ۱۴۰۳',saipaRole:'کارشناس مهندسی صنایع',saipaDesc:'انجام فعالیت‌های کارسنجی و زمان‌سنجی در عملیات تولید، تحلیل فعالیت‌ها و زمان فرآیندها و تهیه گزارش‌های تحلیلی بر اساس داده‌های کارسنجی و زمان‌سنجی.',saipaTag1:'زمان‌سنجی',saipaTag2:'کارسنجی',saipaTag3:'تولید',careerSignal:'سیگنال مسیر شغلی',careerSignalText:'از زمان‌سنجی در محیط تولید تا کارسنجی و تحلیل نیروی انسانی در محیط بانکی.',careerSignalSmall:'مهندسی صنایع · کارسنجی · تحلیل نیروی انسانی',
-secSkills:'۰۴ / مهارت‌ها',skillsTitle:'مهارت‌ها',coreCapabilities:'توانمندی‌های اصلی',skill1:'تحلیل نیروی انسانی و گزارش‌دهی',skill2:'تصویری‌سازی داده و داشبوردهای مدیریتی',skill3:'مدل‌سازی فرآیند و BPMN',skill4:'تحلیل فرآیند و بهبود مستمر',skill5:'گزارش‌دهی مدیریتی و مستندسازی',toolsLabel:'ابزارها',credentialsLabel:'گواهی‌ها',cert1:'اصول مدیریت پروژه — PMBOK 7',certProvider:'مجتمع فنی تهران',cert2:'برنامه‌ریزی و کنترل پروژه — MS Project',certProvider2:'مجتمع فنی تهران',bernardCaption:'توقف / اجرای انیمیشن‌های سایت',secContact:'۰۵ / ارتباط',letsConnect:'ارتباط با من',contactLead:'اگر در حوزه مهندسی صنایع، کارسنجی، تحلیل نیروی انسانی یا بهبود فرآیند فعالیت می‌کنید، خوشحال می‌شوم در ارتباط باشیم.',contactText:'برای ارتباط با من در تماس باشید.'};
-const i18nEls=[...document.querySelectorAll('[data-i18n]')];i18nEls.forEach(el=>{el.dataset.en=el.innerHTML});function setLanguage(lang){const isFa=lang==='fa';document.documentElement.lang=isFa?'fa':'en';document.documentElement.dir=isFa?'rtl':'ltr';i18nEls.forEach(el=>{const k=el.dataset.i18n;if(isFa&&translations[k]!==undefined)el.innerHTML=translations[k];else el.innerHTML=el.dataset.en;});document.getElementById('enBtn').classList.toggle('active',!isFa);document.getElementById('faBtn').classList.toggle('active',isFa);localStorage.setItem('siteLang',lang)}
+industrialEngineer:'مهندس صنایع',about:'درباره من',expertise:'حوزه‌های تخصصی',experience:'سوابق کاری',skills:'توانمندی‌ها',contact:'تماس با من',
+heroTitle:'کارسنجی و<br>تحلیل نیروی انسانی',heroText:'با سنجش حجم کار، زمان و ظرفیت عملیاتی، داده‌های قابل اتکایی برای برنامه‌ریزی نیروی انسانی و تصمیم‌گیری درباره ظرفیت و تعداد نیروی موردنیاز فراهم می‌کنم.',explore:'آشنایی با حوزه‌های تخصصی',timeStudyWork:'کارسنجی / زمان‌سنجی',
+secAbout:'۰۱ / درباره من',aboutMe:'درباره من',aboutLead:'من مهندس صنایع هستم و تمرکز حرفه‌ای من بر کارسنجی، زمان‌سنجی و تحلیل نیروی انسانی است؛ حوزه‌هایی که داده و اندازه‌گیری را به تصمیم‌های عملیاتی قابل اتکا تبدیل می‌کنند.',focus:'حوزه تمرکز',
+secExpertise:'۰۲ / حوزه‌های تخصصی',whatIWorkOn:'در چه حوزه‌هایی کار می‌کنم',workMeasurement:'کارسنجی',workMeasurementText:'سنجش فعالیت‌ها و حجم کار برای برآورد ظرفیت و نیاز نیروی انسانی.',timeStudy:'زمان‌سنجی',timeStudyText:'اندازه‌گیری و تحلیل زمان انجام فعالیت‌ها و فرآیندهای کاری.',workforceAnalysis:'تحلیل نیروی انسانی',workforceAnalysisText:'مقایسه حجم کار و ظرفیت موجود برای پشتیبانی از تصمیم‌های مرتبط با نیروی موردنیاز.',dataReporting:'تحلیل داده و گزارش‌دهی',dataReportingText:'تبدیل داده‌های عملیاتی به گزارش‌ها و خروجی‌های قابل استفاده برای مدیریت.',
+processThinking:'رویکرد فرآیندی',observe:'شناخت و مشاهده کار',measureAnalyze:'اندازه‌گیری و تحلیل',modelProcess:'مدل‌سازی فرآیند',improveReport:'بهبود و ارائه نتایج',
+secExperience:'۰۳ / سوابق کاری',experienceTitle:'سوابق کاری',current:'۰۱ / فعلی',bankPeriod:'۲۰ بهمن ۱۴۰۳ — تاکنون',bankRole:'کارشناس مدیریت سرمایه انسانی — کارسنجی و تحلیل نیروی انسانی',bankDesc:'انجام کارسنجی و تحلیل حجم کار در واحدها، مدیریت‌ها و شعب بانک؛ بررسی فعالیت‌های عملیاتی، حجم کار و ظرفیت برای پشتیبانی از برنامه‌ریزی نیروی انسانی و تصمیم‌گیری درباره تعداد نیروی موردنیاز. همچنین مشارکت در تحلیل ساختار سازمانی، تدوین و بررسی شرح وظایف و سایر موضوعات مرتبط با نیروی انسانی.',bankTag1:'کارسنجی',bankTag2:'تحلیل نیروی انسانی',bankTag3:'ساختار سازمانی',previous:'۰۲ / پیشین',saipaPeriod:'۱ خرداد ۱۴۰۲ — ۳۰ دی ۱۴۰۳',saipaRole:'کارشناس مهندسی صنایع',saipaDesc:'انجام فعالیت‌های کارسنجی و زمان‌سنجی در محیط تولید، بررسی فعالیت‌ها و زمان انجام فرآیندها و تهیه گزارش‌های تحلیلی بر مبنای داده‌های کارسنجی و زمان‌سنجی.',saipaTag1:'زمان‌سنجی',saipaTag2:'کارسنجی',saipaTag3:'محیط تولید',careerSignal:'مسیر حرفه‌ای',careerSignalText:'مسیر حرفه‌ای من از زمان‌سنجی و کارسنجی در محیط تولید آغاز شد و به کارسنجی و تحلیل نیروی انسانی در محیط بانکی رسید.',careerSignalSmall:'مهندسی صنایع · کارسنجی · تحلیل نیروی انسانی',
+secSkills:'۰۴ / توانمندی‌ها',skillsTitle:'توانمندی‌ها',coreCapabilities:'توانمندی‌های تخصصی',skill1:'تحلیل نیروی انسانی و گزارش‌های مدیریتی',skill2:'تحلیل و تصویری‌سازی داده و داشبوردهای مدیریتی',skill3:'مدل‌سازی فرآیند و BPMN',skill4:'تحلیل و بهبود فرآیند',skill5:'گزارش‌های مدیریتی و مستندسازی',toolsLabel:'ابزارهای مورد استفاده',credentialsLabel:'گواهی‌های تخصصی',cert1:'اصول مدیریت پروژه بر اساس استاندارد PMBOK 7',certProvider:'مجتمع فنی تهران',cert2:'برنامه‌ریزی و کنترل پروژه با نرم‌افزار MS Project',methodField:'حوزه / روش',howIWork:'روش کار من',methodIndex:'۰۱—۰۴',timeWork:'زمان / کار',capacity:'ظرفیت',decision:'تصمیم',data:'داده',stopwatch:'کرنومتر',makeMeasurable:'کار را قابل اندازه‌گیری می‌کنم.',observeVisual:'مشاهده',workActivityFlow:'کار · فعالیت · جریان',measureVisual:'اندازه‌گیری',timeWorkloadCapacity:'زمان · حجم کار · ظرفیت',analyzeVisual:'تحلیل',dataProcessWorkforce:'داده · فرآیند · نیروی انسانی',reportVisual:'گزارش‌دهی',insightModelDecision:'بینش · مدل · تصمیم',workMeasurementVisual:'کارسنجی',timeStudyVisual:'زمان‌سنجی',workforceAnalysisVisual:'تحلیل نیروی انسانی',certProvider2:'مجتمع فنی تهران',bernardCaption:'توقف / اجرای حرکت‌های سایت',secContact:'۰۵ / تماس',letsConnect:'در تماس باشیم',contactLead:'اگر در حوزه مهندسی صنایع، کارسنجی، تحلیل نیروی انسانی یا بهبود فرآیند فعالیت می‌کنید، خوشحال می‌شوم با شما در ارتباط باشم.',contactText:'برای گفت‌وگو و همکاری، از طریق راه‌های ارتباطی زیر با من در تماس باشید.'};
+const i18nEls=[...document.querySelectorAll('[data-i18n]')];document.querySelectorAll('.process-art [data-fa]').forEach(el=>{el.dataset.en=el.textContent;});i18nEls.forEach(el=>{el.dataset.en=el.innerHTML});function applyPersianVisualLabels(lang){
+  const map = {
+    'FIELD / METHOD':'حوزه / روش','How I work':'روش کار من','01—04':'۰۱—۰۴','TIME / WORK':'زمان / کار',
+    'CAPACITY':'ظرفیت','DECISION':'تصمیم','DATA':'داده','STOPWATCH':'کرنومتر','Make the work measurable.':'کار را قابل اندازه‌گیری می‌کنم.',
+    'OBSERVE':'مشاهده','Work · activity · flow':'کار · فعالیت · جریان','MEASURE':'اندازه‌گیری','Time · workload · capacity':'زمان · حجم کار · ظرفیت',
+    'ANALYZE':'تحلیل','Data · process · workforce':'داده · فرآیند · نیروی انسانی','REPORT':'گزارش‌دهی','Insight · model · decision':'بینش · مدل · تصمیم',
+    'WORK MEASUREMENT':'کارسنجی','TIME STUDY':'زمان‌سنجی','WORKFORCE ANALYSIS':'تحلیل نیروی انسانی'
+  };
+  document.querySelectorAll('body *').forEach(el=>{
+    if(el.children.length===0){
+      const t=el.textContent.trim();
+      if(lang==='fa' && map[t]){ el.dataset.enVisualText=t; el.textContent=map[t]; }
+      else if(lang!=='fa' && el.dataset.enVisualText){ el.textContent=el.dataset.enVisualText; }
+    }
+  });
+}
+
+function setLanguage(lang){const isFa=lang==='fa';document.documentElement.lang=isFa?'fa':'en';document.documentElement.dir=isFa?'rtl':'ltr';i18nEls.forEach(el=>{const k=el.dataset.i18n;if(isFa&&translations[k]!==undefined)el.innerHTML=translations[k];else el.innerHTML=el.dataset.en;});document.querySelectorAll('.process-art [data-fa]').forEach(el=>{if(isFa){el.textContent=el.dataset.fa;}else{el.textContent=el.dataset.en||el.textContent;}});document.getElementById('enBtn').classList.toggle('active',!isFa);document.getElementById('faBtn').classList.toggle('active',isFa);localStorage.setItem('siteLang',lang)}
 document.getElementById('enBtn').addEventListener('click',()=>setLanguage('en'));document.getElementById('faBtn').addEventListener('click',()=>setLanguage('fa'));
 const mobileMenuBtn=document.getElementById('mobileMenuBtn'),mobileMenu=document.getElementById('mobileMenu');mobileMenuBtn.addEventListener('click',()=>{const open=mobileMenu.classList.toggle('open');mobileMenuBtn.setAttribute('aria-expanded',open?'true':'false');mobileMenuBtn.textContent=open?'CLOSE':'MENU'});mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileMenu.classList.remove('open');mobileMenuBtn.setAttribute('aria-expanded','false');mobileMenuBtn.textContent='MENU'}));setLanguage(localStorage.getItem('siteLang')||'en');
 
@@ -336,3 +449,157 @@ const mobileMenuBtn=document.getElementById('mobileMenuBtn'),mobileMenu=document
 const seal=document.querySelector('.xcore');seal.setAttribute('tabindex','0');seal.setAttribute('role','button');function playSealAudio(){if(!hogwartsAudio) hogwartsAudio=document.getElementById('hogwartsAudio');if(!hogwartsAudio||!hogwartsAudio.src){syncSealUI();return;}if(!hogwartsAudio.paused && !hogwartsAudio.ended){hogwartsAudio.pause();syncSealUI();return;}if(hogwartsAudio.ended) hogwartsAudio.currentTime=0;hogwartsAudio.play().then(()=>syncSealUI()).catch(()=>syncSealUI());}hogwartsAudio=document.getElementById('hogwartsAudio');hogwartsAudio.addEventListener('play',syncSealUI);hogwartsAudio.addEventListener('pause',syncSealUI);hogwartsAudio.addEventListener('ended',syncSealUI);seal.addEventListener('click',playSealAudio);seal.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();playSealAudio()}});syncSealUI();</script>
 </body>
 </html>
+<style>
+/* FINAL RTL expertise-card fit fix: Persian text must remain fully inside its card */
+html[dir="rtl"] #expertise .xstage{overflow:hidden}
+html[dir="rtl"] #expertise .xstage .xorbit{position:absolute;inset:0;width:100%;height:100%;transform:none!important}
+html[dir="rtl"] #expertise .xstage .xnode{
+  box-sizing:border-box!important;
+  width:250px!important;
+  min-height:148px!important;
+  height:auto!important;
+  padding:18px 20px!important;
+  overflow:hidden!important;
+  direction:rtl!important;
+  text-align:right!important;
+  writing-mode:horizontal-tb!important;
+  display:block!important;
+}
+html[dir="rtl"] #expertise .xstage .xnode .n{
+  display:block!important;
+  margin:0 0 7px!important;
+  direction:ltr!important;
+  text-align:left!important;
+  font-family:Inter,system-ui,sans-serif!important;
+  font-size:9px!important;
+}
+html[dir="rtl"] #expertise .xstage .xnode h3{
+  margin:0 0 7px!important;
+  font-family:"Vazirmatn",Tahoma,sans-serif!important;
+  font-size:17px!important;
+  font-weight:650!important;
+  line-height:1.55!important;
+  letter-spacing:-.025em!important;
+  white-space:normal!important;
+  overflow-wrap:anywhere!important;
+}
+html[dir="rtl"] #expertise .xstage .xnode p{
+  margin:0!important;
+  font-family:"Vazirmatn",Tahoma,sans-serif!important;
+  font-size:10.5px!important;
+  line-height:1.8!important;
+  white-space:normal!important;
+  overflow-wrap:anywhere!important;
+  word-break:normal!important;
+}
+html[dir="rtl"] #expertise .xstage .n1{left:4%!important;top:8%!important}
+html[dir="rtl"] #expertise .xstage .n2{right:4%!important;top:10%!important}
+html[dir="rtl"] #expertise .xstage .n3{left:4%!important;bottom:9%!important}
+html[dir="rtl"] #expertise .xstage .n4{right:4%!important;bottom:7%!important}
+
+@media(max-width:850px){
+  html[dir="rtl"] #expertise .xstage{height:650px!important}
+  html[dir="rtl"] #expertise .xstage .xnode{
+    width:calc(50% - 20px)!important;
+    min-height:155px!important;
+    padding:15px 14px!important;
+  }
+  html[dir="rtl"] #expertise .xstage .xnode h3{font-size:15px!important;line-height:1.55!important}
+  html[dir="rtl"] #expertise .xstage .xnode p{font-size:9.5px!important;line-height:1.75!important}
+  html[dir="rtl"] #expertise .xstage .n1{left:4%!important;top:7%!important}
+  html[dir="rtl"] #expertise .xstage .n2{right:4%!important;top:13%!important}
+  html[dir="rtl"] #expertise .xstage .n3{left:4%!important;bottom:13%!important}
+  html[dir="rtl"] #expertise .xstage .n4{right:4%!important;bottom:7%!important}
+}
+@media(max-width:520px){
+  html[dir="rtl"] #expertise .xstage{height:720px!important}
+  html[dir="rtl"] #expertise .xstage .xnode{
+    width:calc(50% - 12px)!important;
+    min-height:180px!important;
+    padding:14px 12px!important;
+  }
+  html[dir="rtl"] #expertise .xstage .xnode h3{font-size:13.5px!important;line-height:1.6!important}
+  html[dir="rtl"] #expertise .xstage .xnode p{font-size:9px!important;line-height:1.8!important}
+  html[dir="rtl"] #expertise .xstage .n1{left:3%!important;top:6%!important}
+  html[dir="rtl"] #expertise .xstage .n2{right:3%!important;top:11%!important}
+  html[dir="rtl"] #expertise .xstage .n3{left:3%!important;bottom:12%!important}
+  html[dir="rtl"] #expertise .xstage .n4{right:3%!important;bottom:6%!important}
+}
+
+/* Compact global motion control — stopwatch button */
+.pause-control{position:fixed;top:18px;right:18px;width:46px;height:46px;border:1px solid rgba(17,19,19,.45);border-radius:50%;background:rgba(251,250,247,.88);backdrop-filter:blur(10px);z-index:1000;cursor:pointer;display:grid;place-items:center;box-shadow:0 6px 18px rgba(17,19,19,.12),inset 0 0 0 3px rgba(255,255,255,.7);padding:0}
+.pause-control:before{content:"";position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:9px;height:5px;border:1px solid rgba(17,19,19,.5);border-bottom:0;border-radius:3px 3px 0 0;background:rgba(251,250,247,.95)}
+.pause-control span{position:relative;width:31px;height:31px;border:1px solid rgba(17,19,19,.32);border-radius:50%;font-size:0}
+.pause-control span:before,.pause-control span:after{content:"";position:absolute;top:8px;width:3px;height:13px;border-radius:1px;background:#356ea8}
+.pause-control span:before{left:9px}.pause-control span:after{right:9px}
+.pause-control.is-paused span:before{left:12px;width:0;height:0;top:8px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:11px solid #356ea8;background:transparent}
+.pause-control.is-paused span:after{display:none}
+html[dir="rtl"] .pause-control{left:18px;right:auto}
+@media(max-width:520px){.pause-control{top:12px;right:12px;width:42px;height:42px}.pause-control span{width:28px;height:28px}html[dir="rtl"] .pause-control{left:12px;right:auto}}
+/* Persian expertise: keep the whole orbital composition rotating while counter-rotating cards so text stays upright. */
+html[dir="rtl"] .xstage .xorbit{animation:xspin 28s linear infinite}
+html[dir="rtl"] .xstage .xnode{animation:faNodeCounter 28s linear infinite;transform:none}
+@keyframes faNodeCounter{from{transform:rotate(0deg)}to{transform:rotate(-360deg)}}
+</style>
+<style>
+/* Final hero + expertise motion correction */
+/* HERO: keep the portrait controlled and balanced in BOTH languages */
+.heroimg{height:500px;max-height:500px;align-self:center}
+.heroimg img.hero-photo{object-position:50% 32%}
+html[dir="rtl"] .heroimg{height:400px;max-height:400px}
+html[dir="rtl"] .heroimg img.hero-photo{object-position:50% 34%}
+
+/* Expertise orbit: Persian uses the same rotating composition as English, only slower. */
+.xstage .xorbit,
+html[dir="rtl"] #expertise .xstage .xorbit{
+  animation:xspin 30s linear infinite !important;
+  transform:none !important;
+}
+/* Keep Persian cards readable while the whole orbital composition rotates. */
+html[dir="rtl"] #expertise .xstage .xnode{
+  animation:faNodeCounter 30s linear infinite !important;
+  transform-origin:center center !important;
+}
+@keyframes faNodeCounter{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(-360deg)}
+}
+@media(max-width:850px){
+  .heroimg{height:400px;max-height:400px}
+  html[dir="rtl"] .heroimg{height:400px;max-height:400px}
+}
+@media(max-width:520px){
+  .heroimg{height:340px;max-height:340px}
+  html[dir="rtl"] .heroimg{height:340px;max-height:340px}
+}
+
+/* HERO collision fix v11 — hard separation between copy and image */
+.hero{isolation:isolate}
+.hero>div:first-child{position:relative;z-index:3;min-width:0}
+.heroimg{position:relative!important;z-index:1!important;min-width:0;max-width:100%;overflow:hidden!important}
+.heroimg img.hero-photo{position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important}
+
+/* English desktop: reserve enough space for the name/copy and cap the portrait */
+html[lang="en"] .hero{grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:clamp(38px,5vw,72px)}
+html[lang="en"] .heroimg{width:100%;height:clamp(390px,48vw,525px);justify-self:end}
+html[lang="en"] .heroimg img.hero-photo{object-position:50% 32%!important}
+html[lang="en"] .hero h1,html[lang="en"] .hero h2,html[lang="en"] .hero p{position:relative;z-index:4}
+
+@media (max-width:1050px){
+  html[lang="en"] .hero{grid-template-columns:minmax(0,1.12fr) minmax(280px,.88fr);gap:34px}
+  html[lang="en"] .heroimg{height:430px}
+  html[lang="en"] .hero h1{font-size:clamp(48px,6vw,70px)}
+}
+@media (max-width:850px){
+  html[lang="en"] .hero{display:flex!important;flex-direction:column!important;gap:36px!important;align-items:stretch!important}
+  html[lang="en"] .hero>div:first-child{width:100%;order:1}
+  html[lang="en"] .heroimg{order:2;width:min(100%,620px)!important;height:clamp(360px,72vw,480px)!important;align-self:center;justify-self:auto;margin:0 auto!important}
+  html[lang="en"] .heroimg img.hero-photo{object-position:50% 30%!important}
+}
+@media (max-width:520px){
+  html[lang="en"] .hero{padding-top:42px;gap:28px!important}
+  html[lang="en"] .hero h1{font-size:clamp(44px,14vw,62px);overflow-wrap:anywhere}
+  html[lang="en"] .heroimg{width:100%!important;height:min(118vw,430px)!important;margin:0!important}
+  html[lang="en"] .heroimg img.hero-photo{object-position:50% 28%!important}
+}
+</style>
